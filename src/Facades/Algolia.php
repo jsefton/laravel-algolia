@@ -9,9 +9,8 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types=1);
 
-namespace Vinkla\Algolia\Facades;
+namespace Jsefton\Algolia\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

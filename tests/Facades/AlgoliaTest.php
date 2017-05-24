@@ -11,12 +11,12 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Tests\Algolia\Facades;
+namespace Jsefton\Tests\Algolia\Facades;
 
 use GrahamCampbell\TestBenchCore\FacadeTrait;
-use Vinkla\Algolia\AlgoliaManager;
-use Vinkla\Algolia\Facades\Algolia;
-use Vinkla\Tests\Algolia\AbstractTestCase;
+use Jsefton\Algolia\AlgoliaManager;
+use Jsefton\Algolia\Facades\Algolia;
+use Jsefton\Tests\Algolia\AbstractTestCase;
 
 /**
  * This is the Algolia facade test class.

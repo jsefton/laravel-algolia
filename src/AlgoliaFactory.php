@@ -9,9 +9,8 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types=1);
 
-namespace Vinkla\Algolia;
+namespace Jsefton\Algolia;
 
 use AlgoliaSearch\Client;
 use InvalidArgumentException;

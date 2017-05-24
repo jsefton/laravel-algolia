@@ -77,7 +77,7 @@ Here you can see an example of just how simple this package is to use. Out of th
 
 ```php
 // You can alias this in config/app.php.
-use Vinkla\Algolia\Facades\Algolia;
+use Jsefton\Algolia\Facades\Algolia;
 
 Algolia::initIndex('contacts');
 // We're done here - how easy was that, it just works!
@@ -89,7 +89,7 @@ Algolia::getLogs();
 The Algolia manager will behave like it is a `AlgoliaSearch\Client`. If you want to call specific connections, you can do that with the connection method:
 
 ```php
-use Vinkla\Algolia\Facades\Algolia;
+use Jsefton\Algolia\Facades\Algolia;
 
 // Writing this…
 Algolia::connection('main')->initIndex('contacts');
@@ -110,7 +110,7 @@ Algolia::setDefaultConnection('alternative'); // The default is now alternative.
 If you prefer to use dependency injection over facades like me, then you can inject the manager:
 
 ```php
-use Vinkla\Algolia\AlgoliaManager;
+use Jsefton\Algolia\AlgoliaManager;
 
 class Foo
 {

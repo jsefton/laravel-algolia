@@ -11,12 +11,12 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Tests\Algolia;
+namespace Jsefton\Tests\Algolia;
 
 use AlgoliaSearch\Client;
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use Vinkla\Algolia\AlgoliaFactory;
-use Vinkla\Algolia\AlgoliaManager;
+use Jsefton\Algolia\AlgoliaFactory;
+use Jsefton\Algolia\AlgoliaManager;
 
 /**
  * This is the service provider test class.

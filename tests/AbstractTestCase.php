@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Tests\Algolia;
+namespace Jsefton\Tests\Algolia;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
-use Vinkla\Algolia\AlgoliaServiceProvider;
+use Jsefton\Algolia\AlgoliaServiceProvider;
 
 /**
  * This is the abstract test case class.

@@ -11,10 +11,10 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Tests\Algolia;
+namespace Jsefton\Tests\Algolia;
 
 use AlgoliaSearch\Client;
-use Vinkla\Algolia\AlgoliaFactory;
+use Jsefton\Algolia\AlgoliaFactory;
 
 /**
  * This is the Algolia factory test class.

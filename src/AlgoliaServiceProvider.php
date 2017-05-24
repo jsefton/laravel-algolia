@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-namespace Vinkla\Algolia;
+namespace Jsefton\Algolia;
 
 use AlgoliaSearch\Client;
 use Illuminate\Contracts\Container\Container;
