@@ -10,7 +10,7 @@
  */
 
 
-namespace Jsefton\Algolia\Facades;
+namespace Vinkla\Algolia\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

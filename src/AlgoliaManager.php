@@ -10,7 +10,7 @@
  */
 
 
-namespace Jsefton\Algolia;
+namespace Vinkla\Algolia;
 
 use AlgoliaSearch\Client;
 use GrahamCampbell\Manager\AbstractManager;

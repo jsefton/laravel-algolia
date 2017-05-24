@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jsefton\\Algolia\\": "src/"
+            "Vinkla\\Algolia\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jsefton\\Tests\\Algolia\\": "tests/"
+            "Vinkla\\Tests\\Algolia\\": "tests/"
         }
     },
     "config": {
