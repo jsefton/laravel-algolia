@@ -1,5 +1,5 @@
 {
-    "name": "vinkla/algolia",
+    "name": "jsefton/algolia",
     "description": "An Algolia bridge for Laravel",
     "license": "MIT",
     "keywords": ["laravel", "algolia", "search", "api"],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Vinkla\\Algolia\\": "src/"
+            "Jsefton\\Algolia\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vinkla\\Tests\\Algolia\\": "tests/"
+            "Jsefton\\Tests\\Algolia\\": "tests/"
         }
     },
     "config": {
