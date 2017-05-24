@@ -52,7 +52,7 @@ class AlgoliaManager extends AbstractManager
      *
      * @return \AlgoliaSearch\Client
      */
-    protected function createConnection(array $config): Client
+    protected function createConnection(array $config)
     {
         return $this->factory->make($config);
     }
@@ -62,7 +62,7 @@ class AlgoliaManager extends AbstractManager
      *
      * @return string
      */
-    protected function getConfigName(): string
+    protected function getConfigName()
     {
         return 'algolia';
     }
@@ -72,7 +72,7 @@ class AlgoliaManager extends AbstractManager
      *
      * @return \Vinkla\Algolia\AlgoliaFactory
      */
-    public function getFactory(): AlgoliaFactory
+    public function getFactory()
     {
         return $this->factory;
     }

@@ -29,7 +29,7 @@ class AlgoliaFactory
      *
      * @return \AlgoliaSearch\Client
      */
-    public function make(array $config): Client
+    public function make(array $config)
     {
         $config = $this->getConfig($config);
 
@@ -45,7 +45,7 @@ class AlgoliaFactory
      *
      * @return array
      */
-    protected function getConfig(array $config): array
+    protected function getConfig(array $config)
     {
         $keys = ['id', 'key'];
 
@@ -65,7 +65,7 @@ class AlgoliaFactory
      *
      * @return \AlgoliaSearch\Client
      */
-    protected function getClient(array $auth): Client
+    protected function getClient(array $auth)
     {
         return new Client(
             $auth['id'],

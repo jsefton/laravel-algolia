@@ -9,7 +9,6 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types=1);
 
 namespace Jsefton\Algolia;
 
@@ -118,7 +117,7 @@ class AlgoliaServiceProvider extends ServiceProvider
      *
      * @return string[]
      */
-    public function provides(): array
+    public function provides()
     {
         return [
             'algolia',
